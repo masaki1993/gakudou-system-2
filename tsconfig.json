@@ -16,5 +16,6 @@
       "noUnusedParameters": true,
       "noFallthroughCasesInSwitch": true
     },
-    "include": ["src"]
+    "include": ["src/App.jsx", "src/main.jsx", "src/supabaseClient.js"],
+    "exclude": ["node_modules"]
   }
